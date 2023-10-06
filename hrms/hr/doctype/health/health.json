@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-13 11:11:56.066138",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "height",
+  "weight",
+  "bmi",
+  "bloodgroup"
+ ],
+ "fields": [
+  {
+   "fieldname": "height",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "HEIGHT"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "WEIGHT"
+  },
+  {
+   "fieldname": "bmi",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "BMI"
+  },
+  {
+   "fieldname": "bloodgroup",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "BLOOD GROUP"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-13 11:30:22.631432",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "HEALTH",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

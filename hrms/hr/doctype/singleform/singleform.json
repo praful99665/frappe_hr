@@ -1,0 +1,173 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-19 11:53:33.699725",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "firstname",
+  "age",
+  "dob",
+  "mobile",
+  "section_break_if2dp",
+  "personal_details_tab",
+  "permanentaddress",
+  "place",
+  "city",
+  "street",
+  "pin",
+  "column_break_dttc5",
+  "checked",
+  "currentaddress",
+  "c_place",
+  "c_city",
+  "c_street",
+  "c_pin",
+  "calculations_tab",
+  "firstno",
+  "secondno",
+  "section_break_j4vie",
+  "ans"
+ ],
+ "fields": [
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Data",
+   "label": "Dob"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "section_break_if2dp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "personal_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Personal Details"
+  },
+  {
+   "fieldname": "permanentaddress",
+   "fieldtype": "Data",
+   "label": "Permanent Address"
+  },
+  {
+   "fieldname": "place",
+   "fieldtype": "Data",
+   "label": "Place"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "street",
+   "fieldtype": "Data",
+   "label": "Street"
+  },
+  {
+   "fieldname": "pin",
+   "fieldtype": "Data",
+   "label": "Pin"
+  },
+  {
+   "fieldname": "column_break_dttc5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "currentaddress",
+   "fieldtype": "Data",
+   "label": "Current Address"
+  },
+  {
+   "fieldname": "c_place",
+   "fieldtype": "Data",
+   "label": "Place"
+  },
+  {
+   "fieldname": "c_city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "c_street",
+   "fieldtype": "Data",
+   "label": "Street"
+  },
+  {
+   "fieldname": "c_pin",
+   "fieldtype": "Data",
+   "label": "Pin"
+  },
+  {
+   "default": "0",
+   "fieldname": "checked",
+   "fieldtype": "Check",
+   "label": "Permanent Address same as Current Address"
+  },
+  {
+   "fieldname": "calculations_tab",
+   "fieldtype": "Tab Break",
+   "label": "calculations"
+  },
+  {
+   "fieldname": "firstno",
+   "fieldtype": "Data",
+   "label": "First No"
+  },
+  {
+   "fieldname": "secondno",
+   "fieldtype": "Data",
+   "label": "Second No"
+  },
+  {
+   "fieldname": "ans",
+   "fieldtype": "Data",
+   "label": "ANS"
+  },
+  {
+   "fieldname": "section_break_j4vie",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-19 14:57:43.119850",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "singleform",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

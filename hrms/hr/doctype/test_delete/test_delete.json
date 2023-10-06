@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-03 16:49:09.569513",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "linkk",
+  "count",
+  "firstname1",
+  "lastname1",
+  "gender1",
+  "date1"
+ ],
+ "fields": [
+  {
+   "fieldname": "count",
+   "fieldtype": "Data",
+   "label": "Count"
+  },
+  {
+   "fieldname": "linkk",
+   "fieldtype": "Data",
+   "label": "link"
+  },
+  {
+   "fieldname": "firstname1",
+   "fieldtype": "Data",
+   "label": "FirstName"
+  },
+  {
+   "fieldname": "lastname1",
+   "fieldtype": "Data",
+   "label": "LastName"
+  },
+  {
+   "fieldname": "gender1",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nmale\nfemale"
+  },
+  {
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "date1"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-05 12:43:00.320980",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "test_delete",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-15 14:47:05.726217",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "height",
+  "weight",
+  "bmi"
+ ],
+ "fields": [
+  {
+   "fieldname": "height",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Height"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Weight"
+  },
+  {
+   "fieldname": "bmi",
+   "fieldtype": "Data",
+   "label": "BMI"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-19 17:41:14.983022",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "child for students",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

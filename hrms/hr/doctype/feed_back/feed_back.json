@@ -1,0 +1,140 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-20 10:04:09.904875",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "firstname",
+  "lastname",
+  "gender",
+  "age",
+  "dob",
+  "details_tab",
+  "address",
+  "place",
+  "city",
+  "street",
+  "pin",
+  "copyaddress_tab",
+  "check",
+  "address1",
+  "place1",
+  "colour"
+ ],
+ "fields": [
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "First Name"
+  },
+  {
+   "fieldname": "lastname",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "is_virtual": 1,
+   "label": "Gender",
+   "options": "\nMale\nFemale"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Age"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "is_virtual": 1,
+   "label": "Dob"
+  },
+  {
+   "fieldname": "details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "place",
+   "fieldtype": "Data",
+   "label": "place"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "city"
+  },
+  {
+   "fieldname": "street",
+   "fieldtype": "Data",
+   "label": "street"
+  },
+  {
+   "fieldname": "pin",
+   "fieldtype": "Data",
+   "label": "pin"
+  },
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "label": "check"
+  },
+  {
+   "fieldname": "copyaddress_tab",
+   "fieldtype": "Tab Break",
+   "label": "CopyAddress"
+  },
+  {
+   "fieldname": "address1",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "place1",
+   "fieldtype": "Data",
+   "label": "place"
+  },
+  {
+   "fieldname": "colour",
+   "fieldtype": "Data",
+   "label": "colour"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-20 15:19:18.798881",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "feed_back",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

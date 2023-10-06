@@ -1,0 +1,401 @@
+{
+ "actions": [],
+ "autoname": "prompt",
+ "creation": "2023-09-15 11:03:05.516467",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "firstname",
+  "lastname",
+  "column_break_ujj6f",
+  "age",
+  "dob",
+  "column_break_oeprs",
+  "email",
+  "address",
+  "column_break_1ogn0",
+  "pincode",
+  "phone",
+  "datetime",
+  "parents_details_tab",
+  "mothersname",
+  "moccupation",
+  "motheraddress",
+  "mpincode",
+  "mothersphone",
+  "column_break_2ddmk",
+  "section_break_qqq4n",
+  "section_break_grrwt",
+  "fathersname",
+  "foccupation",
+  "fathersaddress",
+  "fpincode",
+  "fathersmobilenumber",
+  "educationdetails",
+  "qualification",
+  "certificate",
+  "health",
+  "photo",
+  "mmmm",
+  "check",
+  "color",
+  "code",
+  "currency",
+  "duration",
+  "location",
+  "school",
+  "image",
+  "time",
+  "textedior",
+  "html",
+  "htmledi",
+  "password",
+  "percent",
+  "readonly",
+  "rating",
+  "phonee",
+  "signature",
+  "amended_from",
+  "lft",
+  "rgt",
+  "is_group",
+  "old_parent",
+  "parent_students",
+  "attachimage"
+ ],
+ "fields": [
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lastname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Last Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ujj6f",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Age",
+   "reqd": 1
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "Dob"
+  },
+  {
+   "fieldname": "column_break_oeprs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "E-mail",
+   "unique": 1
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "column_break_1ogn0",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pincode",
+   "fieldtype": "Data",
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "Phone "
+  },
+  {
+   "fieldname": "parents_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Parents Details"
+  },
+  {
+   "fieldname": "mothersname",
+   "fieldtype": "Data",
+   "label": "Mother's Name"
+  },
+  {
+   "fieldname": "moccupation",
+   "fieldtype": "Data",
+   "label": "Mothers Occupation"
+  },
+  {
+   "fieldname": "motheraddress",
+   "fieldtype": "Data",
+   "label": "Mother's Address"
+  },
+  {
+   "fieldname": "mpincode",
+   "fieldtype": "Data",
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "mothersphone",
+   "fieldtype": "Phone",
+   "label": "Mother's Mobile Number"
+  },
+  {
+   "fieldname": "fathersname",
+   "fieldtype": "Data",
+   "label": "Father's Name"
+  },
+  {
+   "fieldname": "foccupation",
+   "fieldtype": "Data",
+   "label": "Fathers Occupation"
+  },
+  {
+   "fieldname": "fathersaddress",
+   "fieldtype": "Data",
+   "label": "Father's Address"
+  },
+  {
+   "fieldname": "fpincode",
+   "fieldtype": "Data",
+   "label": "Pincode"
+  },
+  {
+   "fieldname": "fathersmobilenumber",
+   "fieldtype": "Phone",
+   "label": "Father's Mobile Number"
+  },
+  {
+   "fieldname": "section_break_grrwt",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_2ddmk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_qqq4n",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "educationdetails",
+   "fieldtype": "Tab Break",
+   "label": "Education Details"
+  },
+  {
+   "fieldname": "qualification",
+   "fieldtype": "Select",
+   "label": "Qualification",
+   "options": "10\n+12"
+  },
+  {
+   "fieldname": "certificate",
+   "fieldtype": "Attach",
+   "label": "Certificate"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach Image",
+   "label": "photo"
+  },
+  {
+   "fieldname": "mmmm",
+   "fieldtype": "Barcode",
+   "label": "Barcode"
+  },
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "label": "Check"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "label": "color"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Code",
+   "label": "code"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Currency",
+   "label": "currency",
+   "options": "India"
+  },
+  {
+   "fieldname": "datetime",
+   "fieldtype": "Datetime",
+   "label": "datetime",
+   "reqd": 1
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Duration",
+   "label": "duration"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Geolocation",
+   "label": "location"
+  },
+  {
+   "fieldname": "school",
+   "fieldtype": "Autocomplete",
+   "label": "school",
+   "options": "MTM\nKozhokode H SS\nFarook  HSS\nTown HSS"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Image",
+   "label": "image"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "time"
+  },
+  {
+   "fieldname": "textedior",
+   "fieldtype": "Text Editor",
+   "label": "texteditor"
+  },
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "html"
+  },
+  {
+   "fieldname": "htmledi",
+   "fieldtype": "HTML Editor",
+   "label": "htmleditor"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "password"
+  },
+  {
+   "fieldname": "percent",
+   "fieldtype": "Percent",
+   "label": "percent"
+  },
+  {
+   "fieldname": "readonly",
+   "fieldtype": "Read Only",
+   "label": "readonly"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Rating",
+   "label": "rating"
+  },
+  {
+   "fieldname": "phonee",
+   "fieldtype": "Phone",
+   "label": "phone"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "signature"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "students",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "lft",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Left",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "rgt",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Right",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_group",
+   "fieldtype": "Check",
+   "label": "Is Group"
+  },
+  {
+   "fieldname": "old_parent",
+   "fieldtype": "Link",
+   "label": "Old Parent",
+   "options": "students"
+  },
+  {
+   "fieldname": "parent_students",
+   "fieldtype": "Link",
+   "label": "Parent students",
+   "options": "students"
+  },
+  {
+   "fieldname": "health",
+   "fieldtype": "Table",
+   "label": "Health",
+   "options": "child for students"
+  },
+  {
+   "fieldname": "attachimage",
+   "fieldtype": "Attach Image",
+   "label": "attach image"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-15 17:17:57.762947",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "students",
+ "naming_rule": "Set by user",
+ "nsm_parent_field": "parent_students",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

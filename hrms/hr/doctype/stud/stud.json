@@ -1,0 +1,146 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-14 15:34:01.799627",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "details",
+  "firstname",
+  "lastname",
+  "section_break_djv81",
+  "gender",
+  "age",
+  "section_break_qjc0m",
+  "dob",
+  "email",
+  "qualificationdetails",
+  "cus_to",
+  "qualification",
+  "universityboard",
+  "yearofpassing",
+  "fieldofstudy",
+  "percentage",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "details",
+   "fieldtype": "Tab Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Link",
+   "label": "First Name",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "lastname",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "section_break_djv81",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nMale\nFemale"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "section_break_qjc0m",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "label": "Dob"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "qualificationdetails",
+   "fieldtype": "Tab Break",
+   "label": "Qualification Details"
+  },
+  {
+   "fieldname": "qualification",
+   "fieldtype": "Select",
+   "label": "Qualification",
+   "options": "Graduate\nPostgraduate"
+  },
+  {
+   "fieldname": "universityboard",
+   "fieldtype": "Data",
+   "label": "university/board"
+  },
+  {
+   "fieldname": "yearofpassing",
+   "fieldtype": "Data",
+   "label": "Year of Passing"
+  },
+  {
+   "fieldname": "fieldofstudy",
+   "fieldtype": "Select",
+   "label": "Field Of Study",
+   "options": "MBA\nMCA\nMSC"
+  },
+  {
+   "fieldname": "percentage",
+   "fieldtype": "Data",
+   "label": "Percentage"
+  },
+  {
+   "fieldname": "cus_to",
+   "fieldtype": "Data",
+   "label": "TO"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "stud",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-09-21 09:49:24.817116",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "stud",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

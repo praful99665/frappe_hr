@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-02 10:27:31.020300",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "firstname1",
+  "lastname2",
+  "gender3",
+  "address4",
+  "amended_from",
+  "linkk",
+  "s_child",
+  "int_1",
+  "int_2"
+ ],
+ "fields": [
+  {
+   "fieldname": "firstname1",
+   "fieldtype": "Data",
+   "label": "FirstName"
+  },
+  {
+   "fieldname": "lastname2",
+   "fieldtype": "Data",
+   "label": "LastName"
+  },
+  {
+   "fieldname": "gender3",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "\nmale\nfemale"
+  },
+  {
+   "fieldname": "address4",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "driving_school",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "int_1",
+   "fieldtype": "Int",
+   "label": "Num 1"
+  },
+  {
+   "fieldname": "int_2",
+   "fieldtype": "Int",
+   "label": "Num 2"
+  },
+  {
+   "fieldname": "linkk",
+   "fieldtype": "Link",
+   "label": "link",
+   "options": "driving"
+  },
+  {
+   "fieldname": "s_child",
+   "fieldtype": "Table",
+   "label": "schild",
+   "options": "s_child"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-03 22:11:10.350437",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "driving_school",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-26 10:39:00.801774",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "firstname",
+  "lastname",
+  "fullname",
+  "gender",
+  "dob",
+  "email",
+  "phone",
+  "address",
+  "column_break_jzwpt",
+  "event",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Link",
+   "label": "FirstName",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "lastname",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "LastName"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "is_virtual": 1,
+   "label": "Gender"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "is_virtual": 1,
+   "label": "DOB"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Phone"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "is_virtual": 1,
+   "label": "Address"
+  },
+  {
+   "fieldname": "column_break_jzwpt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "event",
+   "fieldtype": "Link",
+   "label": "Event",
+   "options": "webeaz_event"
+  },
+  {
+   "fieldname": "fullname",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-26 17:20:10.976385",
+ "modified_by": "Administrator",
+ "module": "HR",
+ "name": "webeaz",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
